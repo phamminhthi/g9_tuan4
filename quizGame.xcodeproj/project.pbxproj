@@ -14,6 +14,7 @@
 		4B16BC702073066800B86E35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B16BC6E2073066800B86E35 /* LaunchScreen.storyboard */; };
 		4B16BC7B2073066900B86E35 /* quizGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B16BC7A2073066900B86E35 /* quizGameTests.swift */; };
 		4B16BC862073066900B86E35 /* quizGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B16BC852073066900B86E35 /* quizGameUITests.swift */; };
+		4B16BC962073211000B86E35 /* ScoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B16BC952073211000B86E35 /* ScoreController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4B16BC812073066900B86E35 /* quizGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quizGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B16BC852073066900B86E35 /* quizGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizGameUITests.swift; sourceTree = "<group>"; };
 		4B16BC872073066900B86E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B16BC952073211000B86E35 /* ScoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				4B16BC6C2073066800B86E35 /* Assets.xcassets */,
 				4B16BC6E2073066800B86E35 /* LaunchScreen.storyboard */,
 				4B16BC712073066800B86E35 /* Info.plist */,
+				4B16BC952073211000B86E35 /* ScoreController.swift */,
 			);
 			path = quizGame;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				4B16BC682073066800B86E35 /* ViewController.swift in Sources */,
 				4B16BC662073066800B86E35 /* AppDelegate.swift in Sources */,
+				4B16BC962073211000B86E35 /* ScoreController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FC597CZGMA;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = quizGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = group9.quizGame;
@@ -442,7 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FC597CZGMA;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = quizGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = group9.quizGame;
